@@ -4,127 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PhD Scholar - IIT Roorkee</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        header {
-            background-color: #00509e;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-            position: relative;
-        }
-        header img {
-            max-width: 100px;
-            position: absolute;
-            top: 20px;
-        }
-        header img.logo-left {
-            left: 20px;
-        }
-        header img.logo-right {
-            right: 20px;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-        header p {
-            margin: 10px 0 0;
-            font-size: 1.2rem;
-        }
-        main {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 20px;
-            background: #fff;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-        main section {
-            margin-bottom: 30px;
-        }
-        main h2 {
-            font-size: 1.8rem;
-            color: #00509e;
-            margin-bottom: 10px;
-        }
-        main ul {
-            list-style: disc;
-            padding-left: 20px;
-        }
-        main img {
-            max-width: 100%;
-            border-radius: 8px;
-            margin-top: 10px;
-        }
-        .bio img {
-            max-width: 150px;
-            border-radius: 50%;
-            margin-top: 20px;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #00509e;
-            color: #fff;
-            margin-top: 40px;
-        }
-        footer p {
-            margin: 0;
-        }
-        /* Blog Section */
-        .blog {
-            margin-top: 40px;
-        }
-        .blog-post {
-            border: 1px solid #ddd;
-            padding: 20px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        .blog-post h3 {
-            margin: 0;
-            font-size: 1.5rem;
-            color: #00509e;
-        }
-        .blog-post p {
-            font-size: 1rem;
-            line-height: 1.6;
-        }
-    </style>
 </head>
 <body>
     <header>
-        <img src="images/Logo/1.jpg" alt="IIT Roorkee Logo" class="logo-left">
+        <img src="images/logo-left.jpg" alt="IIT Roorkee Logo" class="logo-left">
         <h1>Welcome to My Profile</h1>
         <p>PhD Scholar - Department of Computer Science and Engineering</p>
         <p>Indian Institute of Technology, Roorkee</p>
-        <img src="iitr james thomson_page-0001.jpg" alt="IIT Roorkee Logo" class="logo-right">
+        <img src="images/logo-right.jpg" alt="IIT Roorkee Logo" class="logo-right">
     </header>
     <main>
+        <!-- About Section -->
         <section class="bio">
             <h2>About Me</h2>
-            <img src="WhatsApp Image 2025-01-27 at 1.41.01 AM.jpeg" alt="My Photo">
+            <img src="images/profile.jpg" alt="My Photo" class="profile-photo">
             <p>Hello! I am a PhD scholar in the Department of Computer Science and Engineering at IIT Roorkee. My research focuses on deep multi-view clustering and other cutting-edge topics in computer science. I am proud to be a Visvesvaraya PhD Fellow, and my research is funded by MeitY, Government of India, under the Digital India Corporation initiative.</p>
+        </section>
+        
+        <!-- Education Section -->
+        <section class="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>PhD in Computer Science</strong> - IIT Roorkee</li>
+                <li><strong>M.Tech in Computer Science</strong> - IIIT Delhi</li>
+                <li><strong>B.E in Computer Science</strong> - Barak Valley Engineering College</li>
+            </ul>
         </section>
         
         <!-- Blog Section -->
         <section class="blog">
             <h2>Blog</h2>
             <div class="blog-post">
-                <h3>Blog Post 1: Exploring Deep Multi-View Clustering</h3>
+                <h3>Exploring Deep Multi-View Clustering</h3>
                 <p>Deep multi-view clustering is a revolutionary approach in machine learning. It combines data from multiple views to create a unified clustering structure. This blog explores its applications in bioinformatics, natural language processing, and beyond.</p>
             </div>
             <div class="blog-post">
-                <h3>Blog Post 2: Trekking in the Himalayas</h3>
+                <h3>Trekking in the Himalayas</h3>
                 <p>Last summer, I had an unforgettable experience trekking in the Himalayas. The breathtaking views, serene environment, and the thrill of adventure made it one of the best journeys of my life.</p>
             </div>
         </section>
